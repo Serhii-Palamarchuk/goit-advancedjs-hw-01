@@ -9,17 +9,21 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
     />
-    <script type="module" crossorigin src="/goit-advancedjs-hw-01/1-gallery.js"></script>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-01/2-form.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/modulepreload-polyfill-B5Qt9EMX.js">
-    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/vendor-g6-w1428.js">
-    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/vendor-AL2zCFOW.css">
     <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/styles-uKd7DZTy.css">
   </head>
   <body>
-    <ul class="gallery"></ul>
-    <script
-      async
-      src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"
-    ></script>
+    <form class="feedback-form" autocomplete="off">
+      <label>
+        Email
+        <input type="email" name="email" autofocus />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="8"></textarea>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
